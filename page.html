@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+    <div class="heading"> <h4>Employee Information</h4> </div>
+    <button class="allEmp">View All Employee</button>
+    <div class="line"></div>
+    <button class="addEmp" data-target="#container" data-toggle="modal">Add New Employee</button>
+    <div id="container" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <h2 id="text-Add">Add New Employee</h2>
+                <form action="">
+                    <fieldset id="Add-Border" > 
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="">Name<em>*</em> :</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="" class="inp" id="name" placeholder="Enter name">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="">Email<em>*</em> :</label>
+                                </td>
+                                <td>
+                                    <input type="email" name="" class="inp" id="email" placeholder="Enter email id(abc@zxy.com)">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="">Mobile<em>*</em> :</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="" class="inp" id="mob" placeholder="Enter mobile number(9xxxxxxxx)">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="">Company<em>*</em> :</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="" class="inp" id="comp" placeholder="Enter company name">
+                                </td>
+                            </tr>
+                        </table>
+                        <button id="btmAdd" onclick="addemp()">Add</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <table class="tab table-striped table-bordered text-center  " >
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Company</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="tablebody">
+            
+        </tbody>
+    </table>
+<script src="./js.js"></script>
+
+</body>
+
+</html>

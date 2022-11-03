@@ -1,0 +1,74 @@
+.heading{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+.allEmp{
+    margin: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    float: left;
+    font-weight: bold;
+}
+.line{
+    height: 580px;
+    width: 2px;
+    border: solid rgb(161, 139, 202) 1px;
+    float: left;
+    background-color: rgb(161, 139, 202);
+}
+.addEmp{
+    margin: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 870px;
+    font-weight: bold;
+}
+
+
+.inp{
+    height: 30px;
+    width: 300px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+em{
+    color: red;
+}
+#btmAdd{
+    background-color: rgb(116, 194, 116);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 50px;
+    font-weight: bold;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+label{
+    font-weight: bold;
+    margin-left: 15px;
+}
+form{
+    height: 250px;
+    width: 500px;
+}
+#text-Add{
+    text-align: center;
+    padding: 26px;
+}
+#Add-Border{
+    border: solid 1px;
+    margin: 10px;
+}       
+
